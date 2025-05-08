@@ -4,36 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="414d7dcf-4a38-46c5-be52-fc7a5f2f4c08" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.cta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tanstack-router-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routeTree.gen.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/__root.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+    <list default="true" id="414d7dcf-4a38-46c5-be52-fc7a5f2f4c08" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Breadcrumbs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InvoiceFields.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spinner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useMutation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useSessionStorage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/_pathlessLayout.route-a.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/_pathlessLayout.route-b.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/dashboard.index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/dashboard.invoices.index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/dashboard.route.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/expensive.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/mockTodos.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/utils.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routeTree.gen.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routeTree.gen.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/__root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +41,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Sinoptik93"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sinoptik93&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Sinoptik93/tanstack-router-test.git",
-    "accountId": "77228445-5444-4483-9b96-c8b9c0618d2e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Sinoptik93/tanstack-router-test.git&quot;,
+    &quot;accountId&quot;: &quot;77228445-5444-4483-9b96-c8b9c0618d2e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2wlT3TZVmaSmlipQoexmaTtkbrS" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -74,14 +72,16 @@
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/s_chepukhin/Development/tanstack-router-test",
+    "javascript.nodejs.core.library.configured.version": "20.12.2",
+    "javascript.nodejs.core.library.typings.version": "20.12.14",
+    "last_opened_file_path": "/Users/s_chepukhin/Development/tanstack-router-test/src/routes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
     "nodejs_package_manager_path": "npm",
     "npm.dev.executor": "Run",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "settings.editor.selected.configurable": "settings.nodejs",
     "ts.external.directory.path": "/Users/s_chepukhin/Development/tanstack-router-test/node_modules/typescript/lib"
   }
 }]]></component>
@@ -96,6 +96,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -130,15 +131,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746614961878</updated>
-      <workItem from="1746614963320" duration="925000" />
+      <workItem from="1746614963320" duration="2440000" />
+      <workItem from="1746628696105" duration="3619000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1746616032249</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746616032250</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
